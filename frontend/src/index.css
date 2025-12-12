@@ -1,0 +1,13 @@
+@import "prismjs/themes/prism-tomorrow.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prism / highlight.js minimal adjustments */
+
+.markdown pre {
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 1rem;
+  overflow: auto;
+}
